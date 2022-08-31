@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=1280&h=720);
+}
+
+
+h1 {
+  text-align: center;
+  font-size: bold;
+  font-family: oblique bold 120% cursive;
+  text-decoration-line: underline overline;
+}
+
+.character-row {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline dotted rgb(1, 59, 62);
+}
+
+#character-detail {
+  position: fixed;
+  right: 0;
+  padding: 25px;
+  background-color: #666;
+  color: white;
+  font-size: 140%;
+  height: 100vh;
+  border-color: rgb(165, 196, 12);
+  border-width: 5px;
+  border-style: dashed;
+  background-color: rgb(2, 43, 18);
+}
+
+
+.thumbnail {
+  border-radius: 50%;
+  margin: 15px;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: black;
+  border-width: 8px;
+}
